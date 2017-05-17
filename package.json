@@ -1,0 +1,11 @@
+{
+  "name": "sample-npm-ts-module",
+  "version": "1.0.0",
+  "description": "Example of NPM module written in TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksandr Boiko",
+  "license": "ISC"
+}
