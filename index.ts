@@ -1,9 +1,4 @@
-export class TheExportedClass {
-    public static exportedMethod1(): string {
-        return "Hey there " + new Date().toDateString();
-    }
+import * as formatterHelper from './src/utils/formatter-helper'
+import * as urlValidator from './src/utils/url-validator'
 
-    public static thisIsVersion2(): string {
-        return "Version 2 here " + new Date().getTime();
-    }
-}
+export { formatterHelper, urlValidator }
